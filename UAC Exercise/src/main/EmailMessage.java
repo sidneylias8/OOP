@@ -4,7 +4,6 @@ public class EmailMessage extends Message {
 
 	public EmailMessage(ILogin iLogin, String sender, String recipient, String content) {
 		super(iLogin, sender, recipient, content);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -15,6 +14,4 @@ public class EmailMessage extends Message {
 			System.out.println("Email authentication failed for user: " + username);
 		}
 	}
-	
-
 }

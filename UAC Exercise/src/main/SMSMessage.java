@@ -4,7 +4,6 @@ public class SMSMessage extends Message {
 
 	public SMSMessage(ILogin iLogin, String sender, String recipient, String content) {
 		super(iLogin, sender, recipient, content);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -15,6 +14,4 @@ public class SMSMessage extends Message {
 			System.out.println("SMS authentication failed for user: " + username);
 		}
 	}
-
-	
 }

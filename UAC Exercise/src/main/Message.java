@@ -46,5 +46,4 @@ public abstract class Message {
 	}
 	
 	public abstract void send(String username, String password);
-	
 }

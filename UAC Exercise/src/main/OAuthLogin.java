@@ -4,7 +4,6 @@ public class OAuthLogin implements ILogin {
 	private String token;
 
 	public OAuthLogin(String token) {
-		super();
 		this.token = token;
 	}
 
@@ -20,6 +19,4 @@ public class OAuthLogin implements ILogin {
 	public boolean authenticate(String username, String token) {
 		return this.token.equals(token);
 	}
-	
-	
 }
